@@ -17,7 +17,7 @@ var ScoreElem = GameElem.querySelector(".score")
 var GroundElem = document.querySelector(".ground")
 var CactusElem = GroundElem.querySelector(".cactus")
 
-var GameSpeed = 10
+var GameSpeed = 2500
 var JumpSpeed = (GameSpeed / 10) * 2 
 var MaxJump = 250
 var SpeedScale = 1
